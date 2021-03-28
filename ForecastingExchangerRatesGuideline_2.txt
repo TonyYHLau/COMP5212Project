@@ -1,0 +1,62 @@
+1)Data
+1.1)8 major currencies: USD, EUR, JPY, GBP, CHF, CAD, AUD, CNY (ready)
+1.2)short-term interest rates for those countries (monthly rate ready)
+1.3)stock market indices for those countries (ready)
+1.4)gold prices (ready)
+1.5)oil prices (ready)
+1.6)CPI index (ready)
+...
+period: 1/1999-2/2021
+frequency: daily, weekly, monthly(easier to find)
+
+
+2)Models (only USD to other currencies)
+Random forest (Brian)
+XGboost (Binnie)
+SVM (MAU)
+ANN ()
+Temporal CNN ()
+LSTM (univariate) (for daily prediction only)(but the data is limited) ()
+linear regression (for daily prediction only) ()
+...
+
+Advanced model:
+MTGNN(https://github.com/nnzhan/MTGNN) (Tony)
+
+more challenging:
+build our own model
+
+3)measurement metrics 
+RMSE
+MAE
+MAPE
+R^2
+DM test
+
+4)Construct long-short portfolios
+long the top 3, short the bottom 3 for each model to see the return.
+
+5)References
+https://pandas-datareader.readthedocs.io/en/latest/
+https://pydata.github.io/pandas-datareader/remote_data.html#remote-data-alphavantage
+
+paper 
+- When the Walk Is Not Random: Commodity Prices and Exchange Rates
+
+
+
+6)Work programme
+
+week 1 (8/3-14/3): data collection (done)
+week 2 (15/3-21/3): data collection + data cleaning (Tony will group all data in one file)
+week 3 (22/3-28/3): modeling (use github)  
+week 4 (29/3-4/4): modeling - use simple model to predict (ref Tony code) and deep learning code, classification up/down.  
+week 5 (5/4-11/4): modeling 
+week 6 (12/4-18/4): report / ppt 
+week 7 (19/4-25/4): report / ppt
+week 8 (26/4-2/5): report / ppt
+week 9 (3/5-7/5): video making and submission
+
+7) Next meeting: 19/3 8:00pm. (Tentative)
+
+
